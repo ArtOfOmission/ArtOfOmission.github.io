@@ -1,2 +1,1 @@
 # ArtOfOmission.github.io
-blog
