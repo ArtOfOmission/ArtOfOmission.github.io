@@ -1,0 +1,23 @@
+name: Node.js CI
+
+on: 
+  push:
+    branches:
+      - source
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - run: npm ci
+    - run: npm install vuepress
+    - run: npm run docs:build
+    
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{secrets.PERSONAL_TOKEN}}
+        PUBLISH_BRANCH: master
+     
