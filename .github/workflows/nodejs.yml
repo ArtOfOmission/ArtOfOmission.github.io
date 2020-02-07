@@ -10,7 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v1
+
+    # action命令，切换分支获取源码
+    - name: Checkout
+      # 使用action库  actions/checkout获取源码
+      uses: actions/checkout@source
+
+     # action命令，安装Node10
+    - name: use Node.js 10
+        # 使用action库  actions/setup-node安装node
+        uses: actions/setup-node@v1
+        with:
+            node-version: 10
+
     - run: npm ci
     - run: npm install vuepress
     - run: npm run docs:build
