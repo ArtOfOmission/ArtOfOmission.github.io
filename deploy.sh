@@ -9,11 +9,18 @@ npm run docs:build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
+# 如果是发布到自定义域名
+# echo 'www.example.com' > CNAME
+
 git init
 git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io  填写你刚刚创建的仓库地址
-git push -f https://github.com/ArtOfOmission/ArtOfOmission.github.io.git master
+# 如果发布到 https://<USERNAME>.github.io
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+
+# 如果发布到 https://<USERNAME>.github.io/<REPO>
+git push -f git@github.com:ArtOfOmission/ArtOfOmission.github.io.git master
 
 cd -
+

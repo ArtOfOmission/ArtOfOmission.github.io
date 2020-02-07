@@ -20,11 +20,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArtOfOmission/SenBlog.git"
+    "url": "git+https://github.com/ArtOfOmission/ArtOfOmission.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/ArtOfOmission/SenBlog/issues"
+    "url": "https://github.com/ArtOfOmission/ArtOfOmission.github.io/issues"
   },
-  "homepage": "https://github.com/ArtOfOmission/SenBlog#readme",
+  "homepage": "https://github.com/ArtOfOmission/ArtOfOmission.github.io#readme",
   "description": ""
 }
