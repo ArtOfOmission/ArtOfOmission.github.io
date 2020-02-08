@@ -1,6 +1,6 @@
 module.exports = {
-    title: '陈彦森',
-    description: '沧海一粟',
+    title: 'cys',
+    description: '123',
     head: [
         // 增加一个自定义的 favicon(网页标签的图标)
         // 这里的 '/' 指向 docs/.vuepress/public 文件目录 
