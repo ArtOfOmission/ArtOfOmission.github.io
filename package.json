@@ -8,7 +8,7 @@
     "vuepress": "^1.3.0",
     "webpack": "^4.41.5"
   },
-  "name": "vuepress-starter",
+  "name": "sen-blog",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
