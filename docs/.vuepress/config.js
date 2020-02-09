@@ -1,5 +1,5 @@
 module.exports = {
-    title: '陈彦森',
+    title: '阿森的博客',
     description: "Rome wasn't built in one day.",
     head: [
         // 增加一个自定义的 favicon(网页标签的图标)
